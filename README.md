@@ -1,26 +1,55 @@
-# I've joined the #100DaysOfX Challenge, 
 
-# NLP with ML
+# 100 Days of NLP with code
 
----
-
-# 100DaysOfMLCode
-
-## Overview
-
-These are the instructions for [this](https://www.youtube.com/watch?v=cuQMBj1cWPo&t=7s) video on Youtube by Siraj Raval for the #100DaysofMLCode Challenge. 
+This repository introduces the fundamental concepts and ideas in natural language processing.
 
 ## Motivation
 
-Machine Learning is the most transformative technology of our time. Whether its helping us discover new drugs for major diseases,
-fighting fraud, generating music, improving supply chain efficiency, the list of applications are truly endless. In order for us as a community
-to be able to make valuable contributions to the world, we need to master this technology. This is a call to action, a battle cry, a spark that
-will light a movement to radically improve the state of humanity. 100 Days of ML Code is a committment to better your understanding of
-this powerful tool by dedicating at least 1 hour of your time everyday to studying and/or coding machine learning for 100 days. 
+I started this project from the video [this](https://www.youtube.com/watch?v=cuQMBj1cWPo&t=7s) video on Youtube by Siraj Raval for the #100DaysofMLCode Challenge.
 
-## Eligibility 
+## Project Ideas
 
-- Everyone is eligible, even people who've never coded before
+I decided to review fundamental concepts and ideas in natural language processing(NLP), otherwise known as computational linguistics.
+
+I will make a document and code from both a linguistic and an algorithmic perspective. Through this repository, you can see the necessary skills to design, implement, and understand their own neural network models.
+
+As you know, I will focuse on modern quantitative techniques in NLP. Also I will try to explain and implement linguistic knowledge.
+
+
+#### The task is to implement the below contents and explain them everyday.
+
+## Contents
+
+1. Statistical MT
+  - HMM
+  
+2. Neural MT
+  - NNLM
+  
+3. Word Embeddings And Language Models
+  - CNN
+  - RNN
+  - LSTM
+  - Bi-LSTM
+  
+4. Sequence to sequence
+  - seq2seq
+  - attention in seq2seq
+  
+5. Language models for Word embedding
+  - ELMo
+  - Transformer
+  - BERT
+
+## Learning Resources
+
+### Reference Texts
+- Dan Jurafsky and James H. Martin. [Speech and Language Processing (3rd ed. draft)](https://web.stanford.edu/~jurafsky/slp3/)
+- Jacob Eisenstein. [Natural Language Processing](http://u.cs.biu.ac.il/~yogo/nnlp.pdf)
+- Yoav Goldberg. [A Primer on Neural Network Models for Natural Language Processing]()
+- Ian Goodfellow, Yoshua Bengio, and Aaron Courville. [Deep Learning](http://www.deeplearningbook.org/)
+- Michael A. Nielsen. Neural Networks and Deep Learning(http://neuralnetworksanddeeplearning.com/)
+- Eugene Charniak.[Introduction to Deep Learning](https://mitpress.mit.edu/books/introduction-deep-learning)
 
 ## The 3 Rules
 
@@ -28,27 +57,3 @@ this powerful tool by dedicating at least 1 hour of your time everyday to studyi
 - Make a public log of your work. Update it daily. Here is a GitHub example [template](https://gist.github.com/llSourcell/43194e486a92532bc343f7837b178eda). Another one is [here](https://github.com/LordSomen/100DaysOfML/blob/master/Log.md). You can also
 make a blog or vlog. 
 - If you see someone make a post using the #100DaysofMLCode hashtag, encourage them via a 'like', 'share', or comment!
-
-## Project Ideas
-
-- Siraj's pick is [Preventing the Spread of Dengue Fever](https://www.drivendata.org/competitions/44/dengai-predicting-disease-spread/). 
-The task is to predict the number of dengue cases each week (in each location) based on environmental variables describing changes
-in temperature, precipitation, vegetation, and more. An understanding of the relationship between climate and dengue dynamics can improve research 
-initiatives and resource allocation to help fight life-threatening pandemics. You can literally save lives with machine learning.
-
-- There are many other projects out there though. Pick an industry that excites you, find a problem they have, locate a relevant dataset, apply AI to that dataset, and monetize the solution.  
-
-## Learning Resources
-
-- [Siraj Raval on Youtube](https://youtube.com/c/sirajraval)
-- [Tensorflow Documentation](https://www.tensorflow.org/tutorials/)
-- [A bunch of online courses](https://github.com/josephmisiti/awesome-machine-learning/blob/master/courses.md)
-- [A bunch of public dataset](https://github.com/awesomedata/awesome-public-datasets/blob/master/README.rst)
-
-## Awards
-
-- Siraj Raval will give a shoutout to some of the Wizards who succesfully complete the challenge, notify him if you've completed
-it via Twitter [@sirajraval](https://twitter.com/sirajraval)
-- By the end of 100 days, you'll be expected to have a project you've contributed to, whether your own or another. The more impact
-you've had, the more likely you'll get a shoutout. Impact comes in the form of good documentation of your journey so that others can follow,
-a project that improves the lives of other people, or real progress in your own ability to code machine learning.
