@@ -36,10 +36,12 @@ As you know, I will focuse on modern quantitative techniques in NLP. Also I will
   - seq2seq
   - attention in seq2seq
   
-5. Language models for Word embedding
+5. Language models for pretrained embedding
   - ELMo
   - Transformer
   - BERT
+  - transformer-xl
+  - gpt-2
 
 ## Learning Resources
 
