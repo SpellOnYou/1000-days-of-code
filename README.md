@@ -5,7 +5,7 @@ This repository introduces the fundamental concepts and ideas in natural languag
 
 ## Motivation
 
-I started this project from the video [this](https://www.youtube.com/watch?v=cuQMBj1cWPo&t=7s) video on Youtube by Siraj Raval for the #100DaysofMLCode Challenge.
+I started this project from [this](https://www.youtube.com/watch?v=cuQMBj1cWPo&t=7s) video on Youtube by Siraj Raval for the #100DaysofMLCode Challenge.
 
 ## Project Ideas
 
@@ -16,7 +16,7 @@ I will make a document and code from both a linguistic and an algorithmic perspe
 As you know, I will focuse on modern quantitative techniques in NLP. Also I will try to explain and implement linguistic knowledge.
 
 
-#### The task is to implement the below contents and explain them everyday.
+#### The task is to implement the below contents and explain.
 
 Maybe i will use R, python and julia.
 
@@ -49,9 +49,14 @@ Maybe i will use R, python and julia.
 
 ## Learning Resources
 
-### Reference Texts
+### Reference
+
+#### computational linguistics
 - Dan Jurafsky and James H. Martin. [Speech and Language Processing (3rd ed. draft)](https://web.stanford.edu/~jurafsky/slp3/)
 - Jacob Eisenstein. [Natural Language Processing](http://u.cs.biu.ac.il/~yogo/nnlp.pdf)
+
+### Neural Network
+
 - Yoav Goldberg. [A Primer on Neural Network Models for Natural Language Processing]()
 - Ian Goodfellow, Yoshua Bengio, and Aaron Courville. [Deep Learning](http://www.deeplearningbook.org/)
 - Michael A. Nielsen. Neural Networks and Deep Learning(http://neuralnetworksanddeeplearning.com/)
