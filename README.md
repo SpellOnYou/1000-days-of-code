@@ -18,6 +18,10 @@ As you know, I will focuse on modern quantitative techniques in NLP. Also I will
 
 #### The task is to implement the below contents and explain them everyday.
 
+Maybe i will use R, python and julia.
+
+(Isn't there anyone to teach me js?)
+
 ## Contents
 
 1. Statistical MT
