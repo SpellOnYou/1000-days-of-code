@@ -29,6 +29,7 @@ Maybe i will use R, python and julia.
   
 2. Neural MT
   - NNLM
+    - python, [colab](https://github.com/SpellOnYou/100_Days_of_ML_Code/blob/master/code/Neural_Network_Language_Model_v2.ipynb)
   
 3. Word Embeddings And Language Models
   - CNN
