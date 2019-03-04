@@ -24,8 +24,10 @@ Maybe i will use R, python and julia.
 
 ## Contents
 
-1. Statistical MT
-  - HMM
+1. Before Neural Networks
+  - K-means
+  - Gaussian Mixure Model with Expectation-Maximization Algorithm 
+  - Hidden Markov Model
   
 2. Neural MT
   - NNLM
