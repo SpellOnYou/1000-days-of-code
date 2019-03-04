@@ -25,7 +25,7 @@ Maybe i will use R, python and julia.
 ## Contents
 
 1. Before Neural Networks
-  - K-means
+  - [K-means](https://github.com/SpellOnYou/100_Days_of_ML_Code/blob/master/code/R/Kmeans-R.ipynb)
   - Gaussian Mixure Model with Expectation-Maximization Algorithm 
   - Hidden Markov Model
   
@@ -46,9 +46,9 @@ Maybe i will use R, python and julia.
 5. Language models for pretrained embedding
   - ELMo
   - Transformer
-  - BERT
+  - [BERT](https://github.com/SpellOnYou/100_Days_of_ML_Code/blob/master/code/python/BERT_torch.ipynb)
   - transformer-xl
-  - gpt-2
+  - [gpt-2](https://github.com/SpellOnYou/100_Days_of_ML_Code/blob/master/code/python/GPT_2.ipynb) - terrible results.. without korean-pretrained model
 
 ## Learning Resources
 
