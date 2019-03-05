@@ -25,8 +25,10 @@ Maybe i will use R, python and julia.
 ## Contents
 
 1. Before Neural Networks
-  - [K-means](https://github.com/SpellOnYou/100_Days_of_ML_Code/blob/master/code/R/Kmeans-R.ipynb)
-  - Gaussian Mixure Model with Expectation-Maximization Algorithm 
+  - k-means
+    - R, [ipynb](https://github.com/SpellOnYou/100_Days_of_ML_Code/blob/master/code/R/Kmeans-R.ipynb)
+  - Gaussian Mixure Model with Expectation-Maximization Algorithm
+    - R, [ipynb](https://github.com/SpellOnYou/100_Days_of_ML_Code/blob/master/code/R/GMM-EM.ipynb)
   - Hidden Markov Model
   
 2. Neural MT
@@ -46,24 +48,13 @@ Maybe i will use R, python and julia.
 5. Language models for pretrained embedding
   - ELMo
   - Transformer
-  - [BERT](https://github.com/SpellOnYou/100_Days_of_ML_Code/blob/master/code/python/BERT_torch.ipynb)
+  - BERT
+    - [colab](https://github.com/SpellOnYou/100_Days_of_ML_Code/blob/master/code/python/BERT_torch.ipynb)
   - transformer-xl
-  - [gpt-2](https://github.com/SpellOnYou/100_Days_of_ML_Code/blob/master/code/python/GPT_2.ipynb) - terrible results.. without korean-pretrained model
+  - GPT-2
+    - [colab](https://github.com/SpellOnYou/100_Days_of_ML_Code/blob/master/code/python/GPT_2.ipynb) - terrible results.. without korean-pretrained model
 
 ## Learning Resources
-
-### Reference
-
-#### computational linguistics
-- Dan Jurafsky and James H. Martin. [Speech and Language Processing (3rd ed. draft)](https://web.stanford.edu/~jurafsky/slp3/)
-- Jacob Eisenstein. [Natural Language Processing](http://u.cs.biu.ac.il/~yogo/nnlp.pdf)
-
-### Neural Network
-
-- Yoav Goldberg. [A Primer on Neural Network Models for Natural Language Processing]()
-- Ian Goodfellow, Yoshua Bengio, and Aaron Courville. [Deep Learning](http://www.deeplearningbook.org/)
-- Michael A. Nielsen. Neural Networks and Deep Learning(http://neuralnetworksanddeeplearning.com/)
-- Eugene Charniak.[Introduction to Deep Learning](https://mitpress.mit.edu/books/introduction-deep-learning)
 
 ## The 3 Rules
 
@@ -71,3 +62,21 @@ Maybe i will use R, python and julia.
 - Make a public log of your work. Update it daily. Here is a GitHub example [template](https://gist.github.com/llSourcell/43194e486a92532bc343f7837b178eda). Another one is [here](https://github.com/LordSomen/100DaysOfML/blob/master/Log.md). You can also
 make a blog or vlog. 
 - If you see someone make a post using the #100DaysofMLCode hashtag, encourage them via a 'like', 'share', or comment!
+
+### Reference
+
+#### computational linguistics
+- Dan Jurafsky and James H. Martin. [Speech and Language Processing (3rd ed. draft)](https://web.stanford.edu/~jurafsky/slp3/)
+- Jacob Eisenstein. [Natural Language Processing](http://u.cs.biu.ac.il/~yogo/nnlp.pdf)
+
+#### Neural Network
+
+- Yoav Goldberg. [A Primer on Neural Network Models for Natural Language Processing]()
+- Ian Goodfellow, Yoshua Bengio, and Aaron Courville. [Deep Learning](http://www.deeplearningbook.org/)
+- Michael A. Nielsen. Neural Networks and Deep Learning(http://neuralnetworksanddeeplearning.com/)
+- Eugene Charniak.[Introduction to Deep Learning](https://mitpress.mit.edu/books/introduction-deep-learning)
+
+#### Code
+
+- Huggingface
+- 
