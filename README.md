@@ -46,11 +46,12 @@ Maybe i will use R, python and julia.
   - attention in seq2seq
   
 5. Language models for pretrained embedding
+  - Semi-supervised Sequence Learning
   - ELMo
-  - Transformer
+  - ULMFiT
+  - OPEN AI Transformer
   - BERT
     - [colab](https://github.com/SpellOnYou/100_Days_of_ML_Code/blob/master/code/python/BERT_torch.ipynb)
-  - transformer-xl
   - GPT-2
     - [colab](https://github.com/SpellOnYou/100_Days_of_ML_Code/blob/master/code/python/GPT_2.ipynb) - terrible results.. without korean-pretrained model
 
