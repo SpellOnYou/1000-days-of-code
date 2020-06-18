@@ -30,7 +30,9 @@ class PartialParse(object):
         ###
         ### Note: The root token should be represented with the string "ROOT"
         ###
-
+        self.stack = ['ROOT']
+        self.buffer = self.sentence.copy() 
+        self.dependencies = list()
 
         ### END YOUR CODE
 
@@ -50,6 +52,9 @@ class PartialParse(object):
         ###         2. Left Arc
         ###         3. Right Arc
 
+        if transition is 'S': self.stack.append(self.buffer.pop(0))
+        elif transition is 'LA': self.dependencies.append((self.stack[-1], self.stack.pop(-2)))
+        else: self.dependencies.append((self.stack[-2], self.stack.pop(-1)))        
 
         ### END YOUR CODE
 
@@ -100,7 +105,22 @@ def minibatch_parse(sentences, model, batch_size):
     ###             contains references to the same objects. Thus, you should NOT use the `del` operator
     ###             to remove objects from the `unfinished_parses` list. This will free the underlying memory that
     ###             is being accessed by `partial_parses` and may cause your code to crash.
+    
 
+    # Not numeric yet
+
+    partial_parses = [PartialParse(s) for s in sentences]
+    unfinished_parses = partial_parses[:] #shallow copy
+
+    while unfinished_parses:
+        mini_batch = unfinished_parses[:batch_size]
+        next_trans = model.predict(mini_batch)
+        for pp, t in zip(mini_batch, next_trans): #pp: each partial parse, t: next step(transition) from model on pp
+            pp.parse_step(t)
+            if len(pp.stack)==1 and len(pp.buffer)==0:
+                unfinished_parses.remove(pp)
+        
+    dependencies = [pp.dependencies for pp in partial_parses]
 
     ### END YOUR CODE
 
