@@ -49,30 +49,38 @@ class ParserModel(nn.Module):
         self.pretrained_embeddings = nn.Embedding(embeddings.shape[0], self.embed_size)
         self.pretrained_embeddings.weight = nn.Parameter(torch.tensor(embeddings))
 
-        ### YOUR CODE HERE (~5 Lines)
-        ### TODO:
-        ###     1) Construct `self.embed_to_hidden` linear layer, initializing the weight matrix
-        ###         with the `nn.init.xavier_uniform_` function with `gain = 1` (default)
-        ###     2) Construct `self.dropout` layer.
-        ###     3) Construct `self.hidden_to_logits` linear layer, initializing the weight matrix
-        ###         with the `nn.init.xavier_uniform_` function with `gain = 1` (default)
-        ###
-        ### Note: Here, we use Xavier Uniform Initialization for our Weight initialization.
-        ###         It has been shown empirically, that this provides better initial weights
-        ###         for training networks than random uniform initialization.
-        ###         For more details checkout this great blogpost:
-        ###             http://andyljones.tumblr.com/post/110998971763/an-explanation-of-xavier-initialization 
-        ### Hints:
-        ###     - After you create a linear layer you can access the weight
-        ###       matrix via:
-        ###         linear_layer.weight
-        ###
-        ### Please see the following docs for support:
-        ###     Linear Layer: https://pytorch.org/docs/stable/nn.html#torch.nn.Linear
-        ###     Xavier Init: https://pytorch.org/docs/stable/nn.html#torch.nn.init.xavier_uniform_
-        ###     Dropout: https://pytorch.org/docs/stable/nn.html#torch.nn.Dropout
+            ### YOUR CODE HERE (~5 Lines)
+            ### TODO:
+            ###     1) Construct `self.embed_to_hidden` linear layer, initializing the weight matrix
+            ###         with the `nn.init.xavier_uniform_` function with `gain = 1` (default)
+            ###     2) Construct `self.dropout` layer.
+            ###     3) Construct `self.hidden_to_logits` linear layer, initializing the weight matrix
+            ###         with the `nn.init.xavier_uniform_` function with `gain = 1` (default)
+            ###
+            ### Note: Here, we use Xavier Uniform Initialization for our Weight initialization.
+            ###         It has been shown empirically, that this provides better initial weights
+            ###         for training networks than random uniform initialization.
+            ###         For more details checkout this great blogpost:
+            ###             http://andyljones.tumblr.com/post/110998971763/an-explanation-of-xavier-initialization 
+            ### Hints:
+            ###     - After you create a linear layer you can access the weight
+            ###       matrix via:
+            ###         linear_layer.weight
+            ###
+            ### Please see the following docs for support:
+            ###     Linear Layer: https://pytorch.org/docs/stable/nn.html#torch.nn.Linear
+            ###     Xavier Init: https://pytorch.org/docs/stable/nn.html#torch.nn.init.xavier_uniform_
+            ###     Dropout: https://pytorch.org/docs/stable/nn.html#torch.nn.Dropout
 
+        self.embed_to_hidden = nn.Linear(self.n_features*self.embed_size, self.hidden_size, bias=True)
+        nn.init.xavier_uniform_(self.embed_to_hidden.weight) #in-place function
 
+        self.hidden_to_logits = nn.Linear(self.hidden_size, self.n_classes, bias=True)
+        nn.init.xavier_uniform_(self.hidden_to_logits.weight)
+
+        self.dropout = nn.Dropout(p=dropout_prob)
+
+        
         ### END YOUR CODE
 
     def embedding_lookup(self, t):
@@ -103,6 +111,8 @@ class ParserModel(nn.Module):
         ###  Please see the following docs for support:
         ###     Embedding Layer: https://pytorch.org/docs/stable/nn.html#torch.nn.Embedding
         ###     View: https://pytorch.org/docs/stable/tensors.html#torch.Tensor.view
+        
+        x = self.pretrained_embeddings(t).view(t.shape[0], -1) # (bs, n_features, n_dim)->(bs, n_features*n_dim)
 
 
         ### END YOUR CODE
@@ -141,7 +151,10 @@ class ParserModel(nn.Module):
         ###
         ### Please see the following docs for support:
         ###     ReLU: https://pytorch.org/docs/stable/nn.html?highlight=relu#torch.nn.functional.relu
-
+        
+        embeddings = self.embedding_lookup(t) # (bs, n_features*n_dim)
+        h = F.relu(self.embed_to_hidden(embeddings))
+        logits = self.hidden_to_logits(self.dropout(h))
 
         ### END YOUR CODE
         return logits
