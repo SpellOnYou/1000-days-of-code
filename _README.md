@@ -1,10 +1,18 @@
-
-# Code repository
-
 ## Contents
 
-### Models, Algorithms
-1. Before Neural Networks
+### CS224n Assignments
+
+1. Assignment3 [written](https://spellonyou.github.io/2020/06/cs224n-19w-course5/) [coding](https://github.com/SpellOnYou/10000-days-of-code/tree/master/code/cs224n-hw/a3)
+
+
+
+### NLP model/algorithms
+1. Statistical approach of Neural Network
+
+  - Expectation-maximization (binomial)
+    - R, [ipynb](https://github.com/SpellOnYou/10000-days-of-code/blob/master/code/R/EM-latent(binomial).ipynb)
+  - Expectation-maximization (normal)
+    - R, [ipynb](https://github.com/SpellOnYou/10000-days-of-code/blob/master/code/R/EM-latent(normal).ipynb)
   - k-means
     - R, [ipynb](https://github.com/SpellOnYou/100_Days_of_ML_Code/blob/master/code/R/Kmeans-R.ipynb)
   - Gaussian Mixure Model with Expectation-Maximization Algorithm
