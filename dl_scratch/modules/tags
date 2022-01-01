@@ -1,0 +1,623 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALL_CBS	exp/nb_09b.py	/^    ALL_CBS = {'begin_batch', 'after_pred', 'after_loss', 'after_backward', 'after_step',$/;"	v	class:Learner
+AWD_LSTM	exp/nb_12a.py	/^class AWD_LSTM(nn.Module):$/;"	c
+AdaptiveConcatPool2d	exp/nb_11a.py	/^class AdaptiveConcatPool2d(nn.Module):$/;"	c
+AverageGrad	exp/nb_09.py	/^class AverageGrad(Stat):$/;"	c
+AverageSqrGrad	exp/nb_09.py	/^class AverageSqrGrad(Stat):$/;"	c
+AvgStats	exp/nb_04.py	/^class AvgStats():$/;"	c
+AvgStatsCallback	exp/nb_04.py	/^class AvgStatsCallback(Callback):$/;"	c
+AvgStatsCallback	exp/nb_05b.py	/^class AvgStatsCallback(Callback):$/;"	c
+AvgStatsCallback	exp/nb_09b.py	/^class AvgStatsCallback(Callback):$/;"	c
+AvgStatsCallback	exp/nb_09c.py	/^class AvgStatsCallback(Callback):$/;"	c
+BatchTransformXCallback	exp/nb_06.py	/^class BatchTransformXCallback(Callback):$/;"	c
+Beta	exp/nb_10b.py	/^from torch.distributions.beta import Beta$/;"	i
+Callback	exp/nb_04.py	/^class Callback():$/;"	c
+Callback	exp/nb_05b.py	/^class Callback():$/;"	c
+CancelBatchException	exp/nb_05b.py	/^class CancelBatchException(Exception): pass$/;"	c
+CancelEpochException	exp/nb_05b.py	/^class CancelEpochException(Exception): pass$/;"	c
+CancelTrainException	exp/nb_05b.py	/^class CancelTrainException(Exception): pass$/;"	c
+CategoryProcessor	exp/nb_08.py	/^class CategoryProcessor(Processor):$/;"	c
+CenterCrop	exp/nb_10.py	/^class CenterCrop(GeneralCrop):$/;"	c
+CudaCallback	exp/nb_06.py	/^class CudaCallback(Callback):$/;"	c
+DataBunch	exp/nb_04.py	/^class DataBunch():$/;"	c
+DataBunch	exp/nb_08.py	/^class DataBunch():$/;"	c
+DataLoader	exp/nb_03.py	/^from torch.utils.data import DataLoader, SequentialSampler, RandomSampler$/;"	i
+Dataset	exp/nb_03.py	/^class Dataset():$/;"	c
+DebugCallback	exp/nb_11a.py	/^class DebugCallback(Callback):$/;"	c
+EmbeddingDropout	exp/nb_12a.py	/^class EmbeddingDropout(nn.Module):$/;"	c
+ExecutePreprocessor	run_notebook.py	/^from nbconvert.preprocessors import ExecutePreprocessor$/;"	i
+F	exp/nb_03.py	/^import torch.nn.functional as F$/;"	i
+Flatten	exp/nb_11.py	/^class Flatten(nn.Module):$/;"	c
+FloatTensor	exp/nb_10.py	/^from torch import FloatTensor,LongTensor$/;"	i
+GeneralCrop	exp/nb_10.py	/^class GeneralCrop(PilTransform):$/;"	c
+GeneralRelu	exp/nb_06.py	/^class GeneralRelu(nn.Module):$/;"	c
+GradientClipping	exp/nb_12a.py	/^class GradientClipping(Callback):$/;"	c
+Hook	exp/nb_06.py	/^class Hook():$/;"	c
+Hooks	exp/nb_06.py	/^class Hooks(ListContainer):$/;"	c
+ImageList	exp/nb_08.py	/^class ImageList(ItemList):$/;"	c
+ItemList	exp/nb_08.py	/^class ItemList(ListContainer):$/;"	c
+Javascript	exp/nb_06.py	/^from IPython.display import display, Javascript$/;"	i
+LM_PreLoader	exp/nb_12.py	/^class LM_PreLoader():$/;"	c
+LR_Find	exp/nb_05b.py	/^class LR_Find(Callback):$/;"	c
+LR_Find	exp/nb_09.py	/^class LR_Find(Callback):$/;"	c
+LabelSmoothingCrossEntropy	exp/nb_10b.py	/^class LabelSmoothingCrossEntropy(nn.Module):$/;"	c
+LabeledData	exp/nb_08.py	/^class LabeledData():$/;"	c
+Lambda	exp/nb_06.py	/^class Lambda(nn.Module):$/;"	c
+Learner	exp/nb_04.py	/^class Learner():$/;"	c
+Learner	exp/nb_09b.py	/^class Learner():$/;"	c
+LinearDecoder	exp/nb_12a.py	/^class LinearDecoder(nn.Module):$/;"	c
+ListContainer	exp/nb_06.py	/^class ListContainer():$/;"	c
+LongTensor	exp/nb_10.py	/^from torch import FloatTensor,LongTensor$/;"	i
+MNIST_URL	exp/nb_01.py	/^MNIST_URL='http:\/\/deeplearning.net\/data\/mnist\/mnist.pkl'$/;"	v
+MakeRGB	exp/nb_08.py	/^class MakeRGB(Transform):$/;"	c
+MixUp	exp/nb_10b.py	/^class MixUp(Callback):$/;"	c
+MixedPrecision	exp/nb_10c.py	/^class MixedPrecision(Callback):$/;"	c
+NoneReduce	exp/nb_10b.py	/^class NoneReduce():$/;"	c
+NumericalizeProcessor	exp/nb_12.py	/^class NumericalizeProcessor(Processor):$/;"	c
+ORTH	exp/nb_12.py	/^from spacy.symbols import ORTH$/;"	i
+Optimizer	exp/nb_09.py	/^class Optimizer():$/;"	c
+OrderedDict	exp/nb_08.py	/^from collections import OrderedDict$/;"	i
+PIL	exp/nb_08.py	/^import PIL,os,mimetypes$/;"	i
+ParamScheduler	exp/nb_05.py	/^class ParamScheduler(Callback):$/;"	c
+ParamScheduler	exp/nb_05b.py	/^class ParamScheduler(Callback):$/;"	c
+ParamScheduler	exp/nb_09.py	/^class ParamScheduler(Callback):$/;"	c
+Path	exp/hapkim-custom.py	/^from pathlib import Path$/;"	i
+Path	exp/nb_01.py	/^from pathlib import Path$/;"	i
+Path	notebook2script.py	/^from pathlib import Path$/;"	i
+PilRandomDihedral	exp/nb_10.py	/^class PilRandomDihedral(PilTransform):$/;"	c
+PilRandomFlip	exp/nb_10.py	/^class PilRandomFlip(PilTransform):$/;"	c
+PilTiltRandomCrop	exp/nb_10.py	/^class PilTiltRandomCrop(PilTransform):$/;"	c
+PilTransform	exp/nb_10.py	/^class PilTransform(Transform): _order=11$/;"	c
+ProcessPoolExecutor	exp/nb_12.py	/^from concurrent.futures import ProcessPoolExecutor$/;"	i
+Processor	exp/nb_08.py	/^class Processor():$/;"	c
+ProgressCallback	exp/nb_09c.py	/^class ProgressCallback(Callback):$/;"	c
+RNNDropout	exp/nb_12a.py	/^class RNNDropout(nn.Module):$/;"	c
+RNNTrainer	exp/nb_12a.py	/^class RNNTrainer(Callback):$/;"	c
+RandomResizedCrop	exp/nb_10.py	/^class RandomResizedCrop(GeneralCrop):$/;"	c
+RandomSampler	exp/nb_03.py	/^from torch.utils.data import DataLoader, SequentialSampler, RandomSampler$/;"	i
+Recorder	exp/nb_05.py	/^class Recorder(Callback):$/;"	c
+Recorder	exp/nb_05b.py	/^class Recorder(Callback):$/;"	c
+Recorder	exp/nb_09.py	/^class Recorder(Callback):$/;"	c
+ResBlock	exp/nb_11.py	/^class ResBlock(nn.Module):$/;"	c
+ResizeFixed	exp/nb_08.py	/^class ResizeFixed(Transform):$/;"	c
+Runner	exp/nb_04.py	/^class Runner():$/;"	c
+Runner	exp/nb_05b.py	/^class Runner():$/;"	c
+RunningBatchNorm	exp/nb_07.py	/^class RunningBatchNorm(nn.Module):$/;"	c
+Sampler	exp/nb_12.py	/^from torch.utils.data import Sampler$/;"	i
+SequentialRNN	exp/nb_12a.py	/^class SequentialRNN(nn.Sequential):$/;"	c
+SequentialSampler	exp/nb_03.py	/^from torch.utils.data import DataLoader, SequentialSampler, RandomSampler$/;"	i
+SimpleNamespace	exp/nb_11a.py	/^from types import SimpleNamespace$/;"	i
+SortSampler	exp/nb_12.py	/^class SortSampler(Sampler):$/;"	c
+SortishSampler	exp/nb_12.py	/^class SortishSampler(Sampler):$/;"	c
+SplitData	exp/nb_08.py	/^class SplitData():$/;"	c
+Stat	exp/nb_09.py	/^class Stat():$/;"	c
+StatefulOptimizer	exp/nb_09.py	/^class StatefulOptimizer(Optimizer):$/;"	c
+StepCount	exp/nb_09.py	/^class StepCount(Stat):$/;"	c
+TEST	exp/nb_00.py	/^TEST = 'test'/;"	v
+TextList	exp/nb_12.py	/^class TextList(ItemList):$/;"	c
+TokenizeProcessor	exp/nb_12.py	/^class TokenizeProcessor(Processor):$/;"	c
+TrainEvalCallback	exp/nb_04.py	/^class TrainEvalCallback(Callback):$/;"	c
+TrainEvalCallback	exp/nb_05b.py	/^class TrainEvalCallback(Callback):$/;"	c
+Transform	exp/nb_08.py	/^class Transform(): _order=0$/;"	c
+WEIGHT_HH	exp/nb_12a.py	/^WEIGHT_HH = 'weight_hh_l0'$/;"	v
+WeightDropout	exp/nb_12a.py	/^class WeightDropout(nn.Module):$/;"	c
+XResNet	exp/nb_11.py	/^class XResNet(nn.Sequential):$/;"	c
+__call__	exp/nb_04.py	/^    def __call__(self, cb_name):$/;"	m	class:Runner	file:
+__call__	exp/nb_05b.py	/^    def __call__(self, cb_name):$/;"	m	class:Callback	file:
+__call__	exp/nb_05b.py	/^    def __call__(self, cb_name):$/;"	m	class:Runner	file:
+__call__	exp/nb_08.py	/^    def __call__(self, item): return item.convert('RGB')$/;"	m	class:MakeRGB	file:
+__call__	exp/nb_08.py	/^    def __call__(self, item): return item.resize(self.size, PIL.Image.BILINEAR)$/;"	m	class:ResizeFixed	file:
+__call__	exp/nb_08.py	/^    def __call__(self, items):$/;"	m	class:CategoryProcessor	file:
+__call__	exp/nb_09b.py	/^    def __call__(self, cb_name):$/;"	m	class:Learner	file:
+__call__	exp/nb_10.py	/^    def __call__(self, x):$/;"	m	class:GeneralCrop	file:
+__call__	exp/nb_10.py	/^    def __call__(self, x):$/;"	m	class:PilRandomDihedral	file:
+__call__	exp/nb_10.py	/^    def __call__(self, x):$/;"	m	class:PilRandomFlip	file:
+__call__	exp/nb_10.py	/^    def __call__(self, x):$/;"	m	class:PilTiltRandomCrop	file:
+__call__	exp/nb_11a.py	/^    def __call__(self, cb_name):$/;"	m	class:DebugCallback	file:
+__call__	exp/nb_12.py	/^    def __call__(self, items):$/;"	m	class:NumericalizeProcessor	file:
+__call__	exp/nb_12.py	/^    def __call__(self, items):$/;"	m	class:TokenizeProcessor	file:
+__del__	exp/nb_06.py	/^    def __del__(self): self.remove()$/;"	m	class:Hook	file:
+__del__	exp/nb_06.py	/^    def __del__(self): self.remove()$/;"	m	class:Hooks	file:
+__delitem__	exp/nb_06.py	/^    def __delitem__(self, i): del(self.items[i])$/;"	m	class:ListContainer	file:
+__delitem__	exp/nb_06.py	/^    def __delitem__(self, i):$/;"	m	class:Hooks	file:
+__enter__	exp/nb_06.py	/^    def __enter__(self, *args): return self$/;"	m	class:Hooks	file:
+__enter__	exp/nb_10b.py	/^    def __enter__(self):$/;"	m	class:NoneReduce	file:
+__exit__	exp/nb_06.py	/^    def __exit__ (self, *args): self.remove()$/;"	m	class:Hooks	file:
+__exit__	exp/nb_10b.py	/^    def __exit__(self, type, value, traceback):$/;"	m	class:NoneReduce	file:
+__getattr__	exp/nb_04.py	/^    def __getattr__(self, k): return getattr(self.run, k)$/;"	m	class:Callback	file:
+__getattr__	exp/nb_05b.py	/^    def __getattr__(self, k): return getattr(self.run, k)$/;"	m	class:Callback	file:
+__getattr__	exp/nb_08.py	/^    def __getattr__(self,k): return getattr(self.train,k)$/;"	m	class:SplitData	file:
+__getitem__	exp/nb_03.py	/^    def __getitem__(self, i): return self.x[i],self.y[i]$/;"	m	class:Dataset	file:
+__getitem__	exp/nb_06.py	/^    def __getitem__(self, idx):$/;"	m	class:ListContainer	file:
+__getitem__	exp/nb_08.py	/^    def __getitem__(self, idx):$/;"	m	class:ItemList	file:
+__getitem__	exp/nb_08.py	/^    def __getitem__(self,idx): return self.x[idx],self.y[idx]$/;"	m	class:LabeledData	file:
+__getitem__	exp/nb_12.py	/^    def __getitem__(self, idx):$/;"	m	class:LM_PreLoader	file:
+__init__	exp/nb_03.py	/^    def __init__(self, x, y): self.x,self.y = x,y$/;"	m	class:Dataset
+__init__	exp/nb_04.py	/^    def __init__(self, cbs=None, cb_funcs=None):$/;"	m	class:Runner
+__init__	exp/nb_04.py	/^    def __init__(self, metrics):$/;"	m	class:AvgStatsCallback
+__init__	exp/nb_04.py	/^    def __init__(self, metrics, in_train): self.metrics,self.in_train = listify(metrics),in_train$/;"	m	class:AvgStats
+__init__	exp/nb_04.py	/^    def __init__(self, model, opt, loss_func, data):$/;"	m	class:Learner
+__init__	exp/nb_04.py	/^    def __init__(self, train_dl, valid_dl, c=None):$/;"	m	class:DataBunch
+__init__	exp/nb_05.py	/^    def __init__(self, pname, sched_funcs): self.pname,self.sched_funcs = pname,sched_funcs$/;"	m	class:ParamScheduler
+__init__	exp/nb_05b.py	/^    def __init__(self, cbs=None, cb_funcs=None):$/;"	m	class:Runner
+__init__	exp/nb_05b.py	/^    def __init__(self, max_iter=100, min_lr=1e-6, max_lr=10):$/;"	m	class:LR_Find
+__init__	exp/nb_05b.py	/^    def __init__(self, metrics):$/;"	m	class:AvgStatsCallback
+__init__	exp/nb_05b.py	/^    def __init__(self, pname, sched_funcs): self.pname,self.sched_funcs = pname,sched_funcs$/;"	m	class:ParamScheduler
+__init__	exp/nb_06.py	/^    def __init__(self, func):$/;"	m	class:Lambda
+__init__	exp/nb_06.py	/^    def __init__(self, items): self.items = listify(items)$/;"	m	class:ListContainer
+__init__	exp/nb_06.py	/^    def __init__(self, leak=None, sub=None, maxv=None):$/;"	m	class:GeneralRelu
+__init__	exp/nb_06.py	/^    def __init__(self, m, f): self.hook = m.register_forward_hook(partial(f, self))$/;"	m	class:Hook
+__init__	exp/nb_06.py	/^    def __init__(self, ms, f): super().__init__([Hook(m, f) for m in ms])$/;"	m	class:Hooks
+__init__	exp/nb_06.py	/^    def __init__(self, tfm): self.tfm = tfm$/;"	m	class:BatchTransformXCallback
+__init__	exp/nb_07.py	/^    def __init__(self, nf, mom=0.1, eps=1e-5):$/;"	m	class:RunningBatchNorm
+__init__	exp/nb_08.py	/^    def __init__(self): self.vocab=None$/;"	m	class:CategoryProcessor
+__init__	exp/nb_08.py	/^    def __init__(self, items, path='.', tfms=None):$/;"	m	class:ItemList
+__init__	exp/nb_08.py	/^    def __init__(self, train, valid): self.train,self.valid = train,valid$/;"	m	class:SplitData
+__init__	exp/nb_08.py	/^    def __init__(self, train_dl, valid_dl, c_in=None, c_out=None):$/;"	m	class:DataBunch
+__init__	exp/nb_08.py	/^    def __init__(self, x, y, proc_x=None, proc_y=None):$/;"	m	class:LabeledData
+__init__	exp/nb_08.py	/^    def __init__(self,size):$/;"	m	class:ResizeFixed
+__init__	exp/nb_09.py	/^    def __init__(self, dampening:bool=False): self.dampening=dampening$/;"	m	class:AverageGrad
+__init__	exp/nb_09.py	/^    def __init__(self, dampening:bool=True): self.dampening=dampening$/;"	m	class:AverageSqrGrad
+__init__	exp/nb_09.py	/^    def __init__(self, max_iter=100, min_lr=1e-6, max_lr=10):$/;"	m	class:LR_Find
+__init__	exp/nb_09.py	/^    def __init__(self, params, steppers, **defaults):$/;"	m	class:Optimizer
+__init__	exp/nb_09.py	/^    def __init__(self, params, steppers, stats=None, **defaults):$/;"	m	class:StatefulOptimizer
+__init__	exp/nb_09.py	/^    def __init__(self, pname, sched_funcs):$/;"	m	class:ParamScheduler
+__init__	exp/nb_09b.py	/^    def __init__(self, metrics):$/;"	m	class:AvgStatsCallback
+__init__	exp/nb_09b.py	/^    def __init__(self, model, data, loss_func, opt_func=sgd_opt, lr=1e-2, splitter=param_getter,$/;"	m	class:Learner
+__init__	exp/nb_09c.py	/^    def __init__(self, metrics):$/;"	m	class:AvgStatsCallback
+__init__	exp/nb_10.py	/^    def __init__(self, p=0.5): self.p=p$/;"	m	class:PilRandomFlip
+__init__	exp/nb_10.py	/^    def __init__(self, p=0.75): self.p=p*7\/8 #Little hack to get the 1\/8 identity dihedral transform taken into account.$/;"	m	class:PilRandomDihedral
+__init__	exp/nb_10.py	/^    def __init__(self, size, crop_size=None, magnitude=0., resample=PIL.Image.BILINEAR):$/;"	m	class:PilTiltRandomCrop
+__init__	exp/nb_10.py	/^    def __init__(self, size, crop_size=None, resample=PIL.Image.BILINEAR):$/;"	m	class:GeneralCrop
+__init__	exp/nb_10.py	/^    def __init__(self, size, scale=(0.08,1.0), ratio=(3.\/4., 4.\/3.), resample=PIL.Image.BILINEAR):$/;"	m	class:RandomResizedCrop
+__init__	exp/nb_10.py	/^    def __init__(self, size, scale=1.14, resample=PIL.Image.BILINEAR):$/;"	m	class:CenterCrop
+__init__	exp/nb_10b.py	/^    def __init__(self, loss_func):$/;"	m	class:NoneReduce
+__init__	exp/nb_10b.py	/^    def __init__(self, α:float=0.4): self.distrib = Beta(tensor([α]), tensor([α]))$/;"	m	class:MixUp
+__init__	exp/nb_10b.py	/^    def __init__(self, ε:float=0.1, reduction='mean'):$/;"	m	class:LabelSmoothingCrossEntropy
+__init__	exp/nb_10c.py	/^    def __init__(self, loss_scale=512, flat_master=False, dynamic=True, max_loss_scale=2.**24, div_factor=2.,$/;"	m	class:MixedPrecision
+__init__	exp/nb_11.py	/^    def __init__(self, expansion, ni, nh, stride=1):$/;"	m	class:ResBlock
+__init__	exp/nb_11a.py	/^    def __init__(self, cb_name, f=None): self.cb_name,self.f = cb_name,f$/;"	m	class:DebugCallback
+__init__	exp/nb_11a.py	/^    def __init__(self, sz=1):$/;"	m	class:AdaptiveConcatPool2d
+__init__	exp/nb_12.py	/^    def __init__(self, data, bs=64, bptt=70, shuffle=False):$/;"	m	class:LM_PreLoader
+__init__	exp/nb_12.py	/^    def __init__(self, data_source, key): self.data_source,self.key = data_source,key$/;"	m	class:SortSampler
+__init__	exp/nb_12.py	/^    def __init__(self, data_source, key, bs):$/;"	m	class:SortishSampler
+__init__	exp/nb_12.py	/^    def __init__(self, lang="en", chunksize=2000, pre_rules=None, post_rules=None, max_workers=4):$/;"	m	class:TokenizeProcessor
+__init__	exp/nb_12.py	/^    def __init__(self, vocab=None, max_vocab=60000, min_freq=2):$/;"	m	class:NumericalizeProcessor
+__init__	exp/nb_12a.py	/^    def __init__(self, clip=None): self.clip = clip$/;"	m	class:GradientClipping
+__init__	exp/nb_12a.py	/^    def __init__(self, emb, embed_p):$/;"	m	class:EmbeddingDropout
+__init__	exp/nb_12a.py	/^    def __init__(self, module, weight_p=[0.], layer_names=[WEIGHT_HH]):$/;"	m	class:WeightDropout
+__init__	exp/nb_12a.py	/^    def __init__(self, n_out, n_hid, output_p, tie_encoder=None, bias=True):$/;"	m	class:LinearDecoder
+__init__	exp/nb_12a.py	/^    def __init__(self, p=0.5):$/;"	m	class:RNNDropout
+__init__	exp/nb_12a.py	/^    def __init__(self, vocab_sz, emb_sz, n_hid, n_layers, pad_token,$/;"	m	class:AWD_LSTM
+__init__	exp/nb_12a.py	/^    def __init__(self, α, β): self.α,self.β = α,β$/;"	m	class:RNNTrainer
+__iter__	exp/nb_06.py	/^    def __iter__(self): return iter(self.items)$/;"	m	class:ListContainer	file:
+__iter__	exp/nb_12.py	/^    def __iter__(self):$/;"	m	class:SortSampler	file:
+__iter__	exp/nb_12.py	/^    def __iter__(self):$/;"	m	class:SortishSampler	file:
+__len__	exp/nb_03.py	/^    def __len__(self): return len(self.x)$/;"	m	class:Dataset	file:
+__len__	exp/nb_06.py	/^    def __len__(self): return len(self.items)$/;"	m	class:ListContainer	file:
+__len__	exp/nb_08.py	/^    def __len__(self): return len(self.x)$/;"	m	class:LabeledData	file:
+__len__	exp/nb_12.py	/^    def __len__(self) -> int: return len(self.data_source)$/;"	m	class:SortishSampler	file:
+__len__	exp/nb_12.py	/^    def __len__(self): return ((self.n_batch-1) \/\/ self.bptt) * self.bs$/;"	m	class:LM_PreLoader	file:
+__len__	exp/nb_12.py	/^    def __len__(self): return len(self.data_source)$/;"	m	class:SortSampler	file:
+__repr__	exp/nb_04.py	/^    def __repr__(self):$/;"	m	class:AvgStats	file:
+__repr__	exp/nb_06.py	/^    def __repr__(self):$/;"	m	class:ListContainer	file:
+__repr__	exp/nb_08.py	/^    def __repr__(self): return f'{self.__class__.__name__}\\nTrain: {self.train}\\nValid: {self.valid}\\n'$/;"	m	class:SplitData	file:
+__repr__	exp/nb_08.py	/^    def __repr__(self): return f'{self.__class__.__name__}\\nx: {self.x}\\ny: {self.y}\\n'$/;"	m	class:LabeledData	file:
+__repr__	exp/nb_08.py	/^    def __repr__(self): return f'{super().__repr__()}\\nPath: {self.path}'$/;"	m	class:ItemList	file:
+__setitem__	exp/nb_06.py	/^    def __setitem__(self, i, o): self.items[i] = o$/;"	m	class:ListContainer	file:
+__setstate__	exp/nb_08.py	/^    def __setstate__(self,data:Any): self.__dict__.update(data)$/;"	m	class:SplitData	file:
+_camel_re1	exp/nb_04.py	/^_camel_re1 = re.compile('(.)([A-Z][a-z]+)')$/;"	v
+_camel_re2	exp/nb_04.py	/^_camel_re2 = re.compile('([a-z0-9])([A-Z])')$/;"	v
+_defaults	exp/nb_09.py	/^    _defaults = dict(mom=0.9)$/;"	v	class:AverageGrad
+_defaults	exp/nb_09.py	/^    _defaults = dict(sqr_mom=0.99)$/;"	v	class:AverageSqrGrad
+_defaults	exp/nb_09.py	/^    _defaults = {}$/;"	v	class:Stat
+_get	exp/nb_08.py	/^    def _get(self, i): return compose(self.get(i), self.tfms)$/;"	m	class:ItemList
+_get_files	exp/nb_08.py	/^def _get_files(p, fs, extensions=None):$/;"	f
+_inner	exp/nb_05.py	/^    def _inner(pos):$/;"	f	function:combine_scheds
+_inner	exp/nb_05.py	/^    def _inner(start, end): return partial(f, start, end)$/;"	f	function:annealer
+_inner	exp/nb_06.py	/^    def _inner(x): return x.view(*((-1,)+size))$/;"	f	function:view_tfm
+_label_by_func	exp/nb_08.py	/^def _label_by_func(ds, f, cls=ItemList): return cls([f(o) for o in ds.items], path=ds.path)$/;"	f
+_m	exp/nb_08.py	/^_m = tensor([0.47, 0.48, 0.45])$/;"	v
+_make_layer	exp/nb_11.py	/^    def _make_layer(expansion, ni, nf, n_blocks, stride):$/;"	m	class:XResNet
+_one_hidden	exp/nb_12a.py	/^    def _one_hidden(self, l):$/;"	m	class:AWD_LSTM
+_order	exp/nb_04.py	/^    _order=0$/;"	v	class:Callback
+_order	exp/nb_05.py	/^    _order=1$/;"	v	class:ParamScheduler
+_order	exp/nb_05b.py	/^    _order=0$/;"	v	class:Callback
+_order	exp/nb_05b.py	/^    _order=1$/;"	v	class:LR_Find
+_order	exp/nb_05b.py	/^    _order=1$/;"	v	class:ParamScheduler
+_order	exp/nb_06.py	/^    _order=2$/;"	v	class:BatchTransformXCallback
+_order	exp/nb_08.py	/^    _order=10$/;"	v	class:ResizeFixed
+_order	exp/nb_09.py	/^    _order=1$/;"	v	class:LR_Find
+_order	exp/nb_09.py	/^    _order=1$/;"	v	class:ParamScheduler
+_order	exp/nb_09c.py	/^    _order=-1$/;"	v	class:ProgressCallback
+_order	exp/nb_10b.py	/^    _order = 90 #Runs after normalization and cuda$/;"	v	class:MixUp
+_order	exp/nb_10c.py	/^    _order = 99$/;"	v	class:MixedPrecision
+_order	exp/nb_11a.py	/^    _order = 999$/;"	v	class:DebugCallback
+_replace_rep	exp/nb_12.py	/^    def _replace_rep(m:Collection[str]) -> str:$/;"	f	function:replace_rep
+_replace_wrep	exp/nb_12.py	/^    def _replace_wrep(m:Collection[str]) -> str:$/;"	f	function:replace_wrep
+_s	exp/nb_08.py	/^_s = tensor([0.29, 0.28, 0.30])$/;"	v
+_setweights	exp/nb_12a.py	/^    def _setweights(self):$/;"	m	class:WeightDropout
+accumulate	exp/nb_04.py	/^    def accumulate(self, run):$/;"	m	class:AvgStats
+accuracy	exp/nb_03.py	/^def accuracy(out, yb): return (torch.argmax(out, dim=1)==yb).float().mean()$/;"	f
+accuracy_flat	exp/nb_12a.py	/^def accuracy_flat(input, target):$/;"	f
+act_fn	exp/nb_11.py	/^act_fn = nn.ReLU(inplace=True)$/;"	v
+adam_opt	exp/nb_09.py	/^def adam_opt(xtra_step=None, **kwargs):$/;"	f
+adam_step	exp/nb_09.py	/^def adam_step(p, lr, mom, mom_damp, step, sqr_mom, sqr_damp, grad_avg, sqr_avg, eps, **kwargs):$/;"	f
+add_cb	exp/nb_09b.py	/^    def add_cb(self, cb):$/;"	m	class:Learner
+add_cbs	exp/nb_09b.py	/^    def add_cbs(self, cbs):$/;"	m	class:Learner
+add_eos_bos	exp/nb_12.py	/^def add_eos_bos(x): return [BOS] + x + [EOS]$/;"	f
+after_backward	exp/nb_10c.py	/^    def after_backward(self):$/;"	m	class:MixedPrecision
+after_backward	exp/nb_12a.py	/^    def after_backward(self):$/;"	m	class:GradientClipping
+after_batch	exp/nb_04.py	/^    def after_batch(self):$/;"	m	class:TrainEvalCallback
+after_batch	exp/nb_05.py	/^    def after_batch(self):$/;"	m	class:Recorder
+after_batch	exp/nb_05b.py	/^    def after_batch(self):$/;"	m	class:Recorder
+after_batch	exp/nb_05b.py	/^    def after_batch(self):$/;"	m	class:TrainEvalCallback
+after_batch	exp/nb_09.py	/^    def after_batch(self):$/;"	m	class:Recorder
+after_batch	exp/nb_09c.py	/^    def after_batch(self): self.pb.update(self.iter)$/;"	m	class:ProgressCallback
+after_epoch	exp/nb_04.py	/^    def after_epoch(self):$/;"	m	class:AvgStatsCallback
+after_epoch	exp/nb_05b.py	/^    def after_epoch(self):$/;"	m	class:AvgStatsCallback
+after_epoch	exp/nb_09b.py	/^    def after_epoch(self):$/;"	m	class:AvgStatsCallback
+after_epoch	exp/nb_09c.py	/^    def after_epoch(self):$/;"	m	class:AvgStatsCallback
+after_fit	exp/nb_09c.py	/^    def after_fit(self): self.mbar.on_iter_end()$/;"	m	class:ProgressCallback
+after_fit	exp/nb_10b.py	/^    def after_fit(self): self.run.loss_func = self.old_loss_func$/;"	m	class:MixUp
+after_loss	exp/nb_04.py	/^    def after_loss(self):$/;"	m	class:AvgStatsCallback
+after_loss	exp/nb_05b.py	/^    def after_loss(self):$/;"	m	class:AvgStatsCallback
+after_loss	exp/nb_09b.py	/^    def after_loss(self):$/;"	m	class:AvgStatsCallback
+after_loss	exp/nb_09c.py	/^    def after_loss(self):$/;"	m	class:AvgStatsCallback
+after_loss	exp/nb_10c.py	/^    def after_loss(self):$/;"	m	class:MixedPrecision
+after_loss	exp/nb_12a.py	/^    def after_loss(self):$/;"	m	class:RNNTrainer
+after_pred	exp/nb_10c.py	/^    def after_pred(self):  self.run.pred = self.run.pred.float() #Compute the loss in FP32$/;"	m	class:MixedPrecision
+after_pred	exp/nb_12a.py	/^    def after_pred(self):$/;"	m	class:RNNTrainer
+after_step	exp/nb_05b.py	/^    def after_step(self):$/;"	m	class:LR_Find
+after_step	exp/nb_09.py	/^    def after_step(self):$/;"	m	class:LR_Find
+after_step	exp/nb_10c.py	/^    def after_step(self):$/;"	m	class:MixedPrecision
+all_batches	exp/nb_04.py	/^    def all_batches(self, dl):$/;"	m	class:Runner
+all_batches	exp/nb_05b.py	/^    def all_batches(self, dl):$/;"	m	class:Runner
+all_batches	exp/nb_09b.py	/^    def all_batches(self):$/;"	m	class:Learner
+all_stats	exp/nb_04.py	/^    def all_stats(self): return [self.tot_loss.item()] + self.tot_mets$/;"	m	class:AvgStats
+annealer	exp/nb_05.py	/^def annealer(f):$/;"	f
+apex	exp/nb_10c.py	/^import apex.fp16_utils as fp16$/;"	i
+append_stats	exp/nb_06.py	/^def append_stats(hook, mod, inp, outp):$/;"	f
+avg_stats	exp/nb_04.py	/^    def avg_stats(self): return [o\/self.count for o in self.all_stats]$/;"	m	class:AvgStats
+batchify	exp/nb_12.py	/^    def batchify(self):$/;"	m	class:LM_PreLoader
+begin_batch	exp/nb_05.py	/^    def begin_batch(self):$/;"	m	class:ParamScheduler
+begin_batch	exp/nb_05b.py	/^    def begin_batch(self):$/;"	m	class:LR_Find
+begin_batch	exp/nb_05b.py	/^    def begin_batch(self):$/;"	m	class:ParamScheduler
+begin_batch	exp/nb_06.py	/^    def begin_batch(self): self.run.xb = self.tfm(self.xb)$/;"	m	class:BatchTransformXCallback
+begin_batch	exp/nb_06.py	/^    def begin_batch(self): self.run.xb,self.run.yb = self.xb.cuda(),self.yb.cuda()$/;"	m	class:CudaCallback
+begin_batch	exp/nb_09.py	/^    def begin_batch(self):$/;"	m	class:LR_Find
+begin_batch	exp/nb_09.py	/^    def begin_batch(self):$/;"	m	class:ParamScheduler
+begin_batch	exp/nb_10b.py	/^    def begin_batch(self):$/;"	m	class:MixUp
+begin_batch	exp/nb_10c.py	/^    def begin_batch(self): self.run.xb = self.run.xb.half() #Put the inputs to half precision$/;"	m	class:MixedPrecision
+begin_epoch	exp/nb_04.py	/^    def begin_epoch(self):$/;"	m	class:AvgStatsCallback
+begin_epoch	exp/nb_04.py	/^    def begin_epoch(self):$/;"	m	class:TrainEvalCallback
+begin_epoch	exp/nb_05b.py	/^    def begin_epoch(self):$/;"	m	class:AvgStatsCallback
+begin_epoch	exp/nb_05b.py	/^    def begin_epoch(self):$/;"	m	class:TrainEvalCallback
+begin_epoch	exp/nb_09b.py	/^    def begin_epoch(self):$/;"	m	class:AvgStatsCallback
+begin_epoch	exp/nb_09c.py	/^    def begin_epoch   (self): self.set_pb()$/;"	m	class:ProgressCallback
+begin_epoch	exp/nb_09c.py	/^    def begin_epoch(self):$/;"	m	class:AvgStatsCallback
+begin_epoch	exp/nb_12a.py	/^    def begin_epoch(self):$/;"	m	class:RNNTrainer
+begin_fit	exp/nb_04.py	/^    def begin_fit(self):$/;"	m	class:TrainEvalCallback
+begin_fit	exp/nb_05.py	/^    def begin_fit(self):$/;"	m	class:ParamScheduler
+begin_fit	exp/nb_05.py	/^    def begin_fit(self):$/;"	m	class:Recorder
+begin_fit	exp/nb_05b.py	/^    def begin_fit(self):$/;"	m	class:ParamScheduler
+begin_fit	exp/nb_05b.py	/^    def begin_fit(self):$/;"	m	class:Recorder
+begin_fit	exp/nb_05b.py	/^    def begin_fit(self):$/;"	m	class:TrainEvalCallback
+begin_fit	exp/nb_06.py	/^    def begin_fit(self): self.model.cuda()$/;"	m	class:CudaCallback
+begin_fit	exp/nb_09.py	/^    def begin_fit(self): self.lrs,self.losses = [],[]$/;"	m	class:Recorder
+begin_fit	exp/nb_09c.py	/^    def begin_fit(self):$/;"	m	class:AvgStatsCallback
+begin_fit	exp/nb_09c.py	/^    def begin_fit(self):$/;"	m	class:ProgressCallback
+begin_fit	exp/nb_10b.py	/^    def begin_fit(self): self.old_loss_func,self.run.loss_func = self.run.loss_func,self.loss_func$/;"	m	class:MixUp
+begin_fit	exp/nb_10c.py	/^    def begin_fit(self):$/;"	m	class:MixedPrecision
+begin_validate	exp/nb_04.py	/^    def begin_validate(self):$/;"	m	class:TrainEvalCallback
+begin_validate	exp/nb_05b.py	/^    def begin_validate(self):$/;"	m	class:TrainEvalCallback
+begin_validate	exp/nb_09c.py	/^    def begin_validate(self): self.set_pb()$/;"	m	class:ProgressCallback
+bs	train_imagenette.py	/^bs = 32$/;"	v
+camel2snake	exp/nb_04.py	/^def camel2snake(name):$/;"	f
+cb_types	exp/nb_11a.py	/^cb_types = SimpleNamespace(**{o:o for o in Learner.ALL_CBS})$/;"	v
+children	exp/nb_06.py	/^def children(m): return list(m.children())$/;"	f
+clas_databunchify	exp/nb_12.py	/^def clas_databunchify(sd, bs, **kwargs):$/;"	f
+cnn_learner	exp/nb_11.py	/^def cnn_learner(arch, data, loss_func, opt_func, c_in=None, c_out=None,$/;"	f
+collections	exp/nb_12.py	/^import collections$/;"	i
+combine_scheds	exp/nb_05.py	/^def combine_scheds(pcts, scheds):$/;"	f
+compose	exp/nb_08.py	/^def compose(x, funcs, *args, order_key='_order', **kwargs):$/;"	f
+conv	exp/nb_11.py	/^def conv(ni, nf, ks=3, stride=1, bias=False):$/;"	f
+conv_layer	exp/nb_06.py	/^def conv_layer(ni, nf, ks=3, stride=2, **kwargs):$/;"	f
+conv_layer	exp/nb_07.py	/^def conv_layer(ni, nf, ks=3, stride=2, bn=True, **kwargs):$/;"	f
+conv_layer	exp/nb_11.py	/^def conv_layer(ni, nf, ks=3, stride=1, zero_bn=False, act=True):$/;"	f
+cos_1cycle_anneal	exp/nb_05.py	/^def cos_1cycle_anneal(start, high, end):$/;"	f
+create	exp/nb_11.py	/^    def create(cls, expansion, layers, c_in=3, c_out=1000):$/;"	m	class:XResNet
+create_learner	exp/nb_05.py	/^def create_learner(model_func, loss_func, data):$/;"	f
+create_phases	exp/nb_11.py	/^def create_phases(phases):$/;"	f
+cross_entropy_flat	exp/nb_12a.py	/^def cross_entropy_flat(input, target):$/;"	f
+data	exp/nb_04.py	/^    def data(self):      return self.learn.data$/;"	m	class:Runner
+data	exp/nb_05b.py	/^    def data(self):      return self.learn.data$/;"	m	class:Runner
+data	train_imagenette.py	/^data = ll.to_databunch(bs, c_in=3, c_out=10, num_workers=8)$/;"	v
+data_path	exp/hapkim-custom.py	/^data_path = Path('\/content\/data'); data_path.mkdir()$/;"	v
+databunchify	exp/nb_08.py	/^def databunchify(sd, bs, c_in=None, c_out=None, **kwargs):$/;"	f
+datasets	exp/nb_01.py	/^from fastai import datasets$/;"	i
+deal_caps	exp/nb_12.py	/^def deal_caps(x):$/;"	f
+debias	exp/nb_09.py	/^def debias(mom, damp, step): return damp * (1 - mom**step) \/ (1-mom)$/;"	f
+default_crop_size	exp/nb_10.py	/^    def default_crop_size(self, w,h): return [w\/self.scale,h\/self.scale]$/;"	m	class:CenterCrop
+default_crop_size	exp/nb_10.py	/^    def default_crop_size(self, w,h): return default_crop_size(w,h)$/;"	m	class:GeneralCrop
+default_crop_size	exp/nb_10.py	/^def default_crop_size(w,h): return [w,w] if w < h else [h,h]$/;"	f
+default_post_rules	exp/nb_12.py	/^default_post_rules = [deal_caps, replace_all_caps, add_eos_bos]$/;"	v
+default_pre_rules	exp/nb_12.py	/^default_pre_rules = [fixup_text, replace_rep, replace_wrep, spec_add_spaces, rm_useless_spaces, sub_br]$/;"	v
+default_spec_tok	exp/nb_12.py	/^default_spec_tok = [UNK, PAD, BOS, EOS, TK_REP, TK_WREP, TK_UP, TK_MAJ]$/;"	v
+defaultdict	exp/hapkim-custom.py	/^from collections import defaultdict$/;"	i
+deproc1	exp/nb_08.py	/^    def deproc1(self, idx): return self.vocab[idx]$/;"	m	class:CategoryProcessor
+deproc1	exp/nb_12.py	/^    def deproc1(self, idx): return [self.vocab[i] for i in idx]$/;"	m	class:NumericalizeProcessor
+deproc1	exp/nb_12.py	/^    def deproc1(self, tok):    return " ".join(tok)$/;"	m	class:TokenizeProcessor
+deprocess	exp/nb_08.py	/^    def deprocess(self, idxs):$/;"	m	class:CategoryProcessor
+deprocess	exp/nb_12.py	/^    def deprocess(self, idxs):$/;"	m	class:NumericalizeProcessor
+deprocess	exp/nb_12.py	/^    def deprocess(self, toks): return [self.deproc1(tok) for tok in toks]$/;"	m	class:TokenizeProcessor
+display	exp/nb_06.py	/^from IPython.display import display, Javascript$/;"	i
+do_begin_epoch	exp/nb_09b.py	/^    def do_begin_epoch(self, epoch):$/;"	m	class:Learner
+do_begin_fit	exp/nb_09b.py	/^    def do_begin_fit(self, epochs):$/;"	m	class:Learner
+drive_data_path	exp/hapkim-custom.py	/^drive_data_path = ser_path\/'data'$/;"	v
+dropout_mask	exp/nb_12a.py	/^def dropout_mask(x, sz, p):$/;"	f
+epochs	train_imagenette.py	/^epochs = 5$/;"	v
+eps	train_imagenette.py	/^eps = 1e-6$/;"	v
+f	exp/nb_08.py	/^    def f(ni, nf, stride=2): return layer(ni, nf, 3, stride=stride, **kwargs)$/;"	f	function:get_cnn_layers
+features	exp/hapkim-custom.py	/^features = [torch.load(path).t() for path in (data_path\/'ser\/dev').ls()[:100]] # (n_logmel, frames) each element will have differnt shape on 2nd dim$/;"	v
+find_coeffs	exp/nb_10.py	/^def find_coeffs(orig_pts, targ_pts):$/;"	f
+find_modules	exp/nb_07a.py	/^def find_modules(m, cond):$/;"	f
+fire	notebook2script.py	/^import json,fire,re$/;"	i
+fire	run_notebook.py	/^import nbformat,fire$/;"	i
+fit	exp/nb_04.py	/^    def fit(self, epochs, learn):$/;"	m	class:Runner
+fit	exp/nb_05b.py	/^    def fit(self, epochs, learn):$/;"	m	class:Runner
+fit	exp/nb_09b.py	/^    def fit(self, epochs, cbs=None, reset_opt=False):$/;"	m	class:Learner
+fixup_text	exp/nb_12.py	/^def fixup_text(x):$/;"	f
+flatten	exp/nb_06.py	/^def flatten(x):      return x.view(x.shape[0], -1)$/;"	f
+format_time	exp/nb_09c.py	/^from fastprogress.fastprogress import format_time$/;"	i
+forward	exp/nb_06.py	/^    def forward(self, x): return self.func(x)$/;"	m	class:Lambda
+forward	exp/nb_06.py	/^    def forward(self, x):$/;"	m	class:GeneralRelu
+forward	exp/nb_07.py	/^    def forward(self, x):$/;"	m	class:RunningBatchNorm
+forward	exp/nb_10b.py	/^    def forward(self, output, target):$/;"	m	class:LabelSmoothingCrossEntropy
+forward	exp/nb_11.py	/^    def forward(self, x): return act_fn(self.convs(x) + self.idconv(self.pool(x)))$/;"	m	class:ResBlock
+forward	exp/nb_11.py	/^    def forward(self, x): return x.view(x.size(0), -1)$/;"	m	class:Flatten
+forward	exp/nb_11a.py	/^    def forward(self, x): return torch.cat([self.mp(x), self.ap(x)], 1)$/;"	m	class:AdaptiveConcatPool2d
+forward	exp/nb_12a.py	/^    def forward(self, *args):$/;"	m	class:WeightDropout
+forward	exp/nb_12a.py	/^    def forward(self, input):$/;"	m	class:AWD_LSTM
+forward	exp/nb_12a.py	/^    def forward(self, input):$/;"	m	class:LinearDecoder
+forward	exp/nb_12a.py	/^    def forward(self, words, scale=None):$/;"	m	class:EmbeddingDropout
+forward	exp/nb_12a.py	/^    def forward(self, x):$/;"	m	class:RNNDropout
+fp16	exp/nb_10c.py	/^import apex.fp16_utils as fp16$/;"	i
+from_files	exp/nb_08.py	/^    def from_files(cls, path, extensions=None, recurse=True, include=None, **kwargs):$/;"	m	class:ImageList
+from_files	exp/nb_12.py	/^    def from_files(cls, path, extensions='.txt', recurse=True, include=None, **kwargs):$/;"	m	class:TextList
+get	exp/nb_08.py	/^    def  get(self, i): return i$/;"	m	class:ItemList
+get	exp/nb_08.py	/^    def get(self, fn): return PIL.Image.open(fn)$/;"	m	class:ImageList
+get	exp/nb_12.py	/^    def get(self, i):$/;"	m	class:TextList
+getSortedFiles	notebook2script.py	/^def getSortedFiles(allFiles, upTo=None):$/;"	f
+get_batch	exp/nb_07a.py	/^def get_batch(dl, run):$/;"	f
+get_batch	exp/nb_11.py	/^def get_batch(dl, learn):$/;"	f
+get_clas_dls	exp/nb_12.py	/^def get_clas_dls(train_ds, valid_ds, bs, **kwargs):$/;"	f
+get_cnn_layers	exp/nb_06.py	/^def get_cnn_layers(data, nfs, layer, **kwargs):$/;"	f
+get_cnn_layers	exp/nb_08.py	/^def get_cnn_layers(data, nfs, layer, **kwargs):$/;"	f
+get_cnn_model	exp/nb_06.py	/^def get_cnn_model(data, nfs, layer, **kwargs):$/;"	f
+get_cnn_model	exp/nb_08.py	/^def get_cnn_model(data, nfs, layer, **kwargs):$/;"	f
+get_corners	exp/nb_10.py	/^    def get_corners(self, w, h): return (0,0,w,h)$/;"	m	class:GeneralCrop
+get_corners	exp/nb_10.py	/^    def get_corners(self, w, h, wc, hc):$/;"	m	class:CenterCrop
+get_corners	exp/nb_10.py	/^    def get_corners(self, w, h, wc, hc):$/;"	m	class:RandomResizedCrop
+get_data	exp/nb_02.py	/^def get_data():$/;"	f
+get_defaults	exp/nb_09.py	/^def get_defaults(d): return getattr(d,'_defaults',{})$/;"	f
+get_dls	exp/nb_03.py	/^def get_dls(train_ds, valid_ds, bs, **kwargs):$/;"	f
+get_files	exp/nb_08.py	/^def get_files(path, extensions=None, recurse=False, include=None):$/;"	f
+get_language_model	exp/nb_12a.py	/^def get_language_model(vocab_sz, emb_sz, n_hid, n_layers, pad_token, output_p=0.4, hidden_p=0.2, input_p=0.6,$/;"	f
+get_learn_run	exp/nb_06.py	/^def get_learn_run(nfs, data, lr, layer, cbs=None, opt_func=None, uniform=False, **kwargs):$/;"	f
+get_learn_run	exp/nb_07.py	/^def get_learn_run(nfs, data, lr, layer, cbs=None, opt_func=None, uniform=False, **kwargs):$/;"	f
+get_learn_run	exp/nb_08.py	/^def get_learn_run(nfs, data, lr, layer, cbs=None, opt_func=None, **kwargs):$/;"	f
+get_learner	exp/nb_09b.py	/^def get_learner(nfs, data, lr, layer, loss_func=F.cross_entropy,$/;"	f
+get_lm_dls	exp/nb_12.py	/^def get_lm_dls(train_ds, valid_ds, bs, bptt, **kwargs):$/;"	f
+get_master	exp/nb_10c.py	/^def get_master(opt, flat_master=False):$/;"	f
+get_model	exp/nb_04.py	/^def get_model(data, lr=0.5, nh=50):$/;"	f
+get_model_func	exp/nb_05.py	/^def get_model_func(lr=0.5): return partial(get_model, lr=lr)$/;"	f
+get_runner	exp/nb_06.py	/^def get_runner(model, data, lr=0.6, cbs=None, opt_func=None, loss_func = F.cross_entropy):$/;"	f
+glob	notebook2script.py	/^    import glob$/;"	i
+grad_overflow	exp/nb_10c.py	/^def grad_overflow(param_groups):$/;"	f
+grad_params	exp/nb_09.py	/^    def grad_params(self):$/;"	m	class:Optimizer
+grandparent_splitter	exp/nb_08.py	/^def grandparent_splitter(fn, valid_name='valid', train_name='train'):$/;"	f
+gzip	exp/nb_01.py	/^import pickle, gzip, math, torch, matplotlib as mpl$/;"	i
+html	exp/nb_12.py	/^import spacy,html$/;"	i
+il	train_imagenette.py	/^il = ImageList.from_files(path, tfms=tfms)$/;"	v
+image_extensions	exp/nb_08.py	/^image_extensions = set(k for k,v in mimetypes.types_map.items() if v.startswith('image\/'))$/;"	v
+init	exp/nb_02.py	/^from torch.nn import init$/;"	i
+init	exp/nb_06.py	/^from torch.nn import init$/;"	i
+init_cnn	exp/nb_06.py	/^def init_cnn(m, uniform=False):$/;"	f
+init_cnn	exp/nb_07.py	/^def init_cnn(m, uniform=False):$/;"	f
+init_cnn	exp/nb_11.py	/^def init_cnn(m):$/;"	f
+init_cnn_	exp/nb_07.py	/^def init_cnn_(m, f):$/;"	f
+init_state	exp/nb_09.py	/^    def init_state(self, p): raise NotImplementedError$/;"	m	class:Stat
+init_state	exp/nb_09.py	/^    def init_state(self, p): return {'grad_avg': torch.zeros_like(p.grad.data)}$/;"	m	class:AverageGrad
+init_state	exp/nb_09.py	/^    def init_state(self, p): return {'sqr_avg': torch.zeros_like(p.grad.data)}$/;"	m	class:AverageSqrGrad
+init_state	exp/nb_09.py	/^    def init_state(self, p): return {'step': 0}$/;"	m	class:StepCount
+initrange	exp/nb_12a.py	/^    initrange=0.1$/;"	v	class:AWD_LSTM
+io	notebook2script.py	/^import io$/;"	i
+is_export	notebook2script.py	/^def is_export(cell):$/;"	f
+is_lin_layer	exp/nb_07a.py	/^def is_lin_layer(l):$/;"	f
+json	notebook2script.py	/^import json,fire,re$/;"	i
+l2_reg	exp/nb_09.py	/^def l2_reg(p, lr, wd, **kwargs):$/;"	f
+label_by_func	exp/nb_08.py	/^    def label_by_func(cls, il, f, proc_x=None, proc_y=None):$/;"	m	class:LabeledData
+label_by_func	exp/nb_08.py	/^def label_by_func(sd, f, proc_x=None, proc_y=None):$/;"	f
+learn	exp/hapkim-custom.py	/^learn = cnn_learner(model, data, loss_func, opt_func)$/;"	v
+learn	train_imagenette.py	/^learn = cnn_learner(xresnet34, data, loss_func, opt_func,$/;"	v
+lin_comb	exp/nb_09.py	/^def lin_comb(v1, v2, beta): return beta*v1 + (1-beta)*v2$/;"	f
+listify	exp/nb_04.py	/^def listify(o):$/;"	f
+ll	train_imagenette.py	/^ll = label_by_func(sd, parent_labeler, proc_y=CategoryProcessor())$/;"	v
+lm_databunchify	exp/nb_12.py	/^def lm_databunchify(sd, bs, bptt, **kwargs):$/;"	f
+loss_func	exp/nb_04.py	/^    def loss_func(self): return self.learn.loss_func$/;"	m	class:Runner
+loss_func	exp/nb_05b.py	/^    def loss_func(self): return self.learn.loss_func$/;"	m	class:Runner
+loss_func	exp/nb_10b.py	/^    def loss_func(self, pred, yb):$/;"	m	class:MixUp
+loss_func	train_imagenette.py	/^loss_func = LabelSmoothingCrossEntropy()$/;"	v
+lr	train_imagenette.py	/^lr = 1e-2$/;"	v
+lsuv_module	exp/nb_07a.py	/^def lsuv_module(m, xb):$/;"	f
+make_rgb	exp/nb_08.py	/^def make_rgb(item): return item.convert('RGB')$/;"	f
+master_bar	exp/nb_09c.py	/^from fastprogress import master_bar, progress_bar$/;"	i
+math	exp/nb_01.py	/^import pickle, gzip, math, torch, matplotlib as mpl$/;"	i
+math	exp/nb_08.py	/^import math$/;"	i
+matplotlib	exp/nb_01.py	/^import matplotlib.pyplot as plt$/;"	i
+maybe_update	exp/nb_09.py	/^def maybe_update(os, dest, f):$/;"	f
+mimetypes	exp/nb_08.py	/^import PIL,os,mimetypes$/;"	i
+mixup	train_imagenette.py	/^mixup = 0$/;"	v
+model	exp/hapkim-custom.py	/^model = nn.Sequential($/;"	v
+model	exp/nb_04.py	/^    def model(self):     return self.learn.model$/;"	m	class:Runner
+model	exp/nb_05b.py	/^    def model(self):     return self.learn.model$/;"	m	class:Runner
+model_summary	exp/nb_08.py	/^def model_summary(run, learn, data, find_all=False):$/;"	f
+model_summary	exp/nb_11.py	/^def model_summary(model, data, find_all=False, print_mod=False):$/;"	f
+module	notebook2script.py	/^    module = re.sub(r' +$', '', module, flags=re.MULTILINE)$/;"	v
+mom	train_imagenette.py	/^mom=0.9$/;"	v
+mom_sqr	train_imagenette.py	/^mom_sqr=0.99$/;"	v
+momentum_step	exp/nb_09.py	/^def momentum_step(p, lr, grad_avg, **kwargs):$/;"	f
+mpl	exp/nb_01.py	/^import pickle, gzip, math, torch, matplotlib as mpl$/;"	i
+mse	exp/nb_02.py	/^def mse(output, targ): return (output.squeeze(-1) - targ).pow(2).mean()$/;"	f
+name	exp/nb_04.py	/^    def name(self):$/;"	m	class:Callback
+name	exp/nb_05b.py	/^    def name(self):$/;"	m	class:Callback
+nb_auto_export	exp/nb_06.py	/^def nb_auto_export():$/;"	f
+nbformat	run_notebook.py	/^import nbformat,fire$/;"	i
+near	exp/nb_01.py	/^def near(a,b): return torch.allclose(a, b, rtol=1e-3, atol=1e-5)$/;"	f
+new	exp/nb_08.py	/^    def new(self, items, cls=None):$/;"	m	class:ItemList
+nn	exp/nb_02.py	/^from torch import nn/;"	i
+nn	exp/nb_03.py	/^import torch.nn.functional as F$/;"	i
+noop	exp/nb_11.py	/^def noop(x): return x$/;"	f
+norm_imagenette	exp/nb_08.py	/^norm_imagenette = partial(normalize_chan, mean=_m.cuda(), std=_s.cuda())$/;"	v
+normalize	exp/nb_02.py	/^def normalize(x, m, s): return (x-m)\/s$/;"	f
+normalize_chan	exp/nb_08.py	/^def normalize_chan(x, mean, std):$/;"	f
+normalize_to	exp/nb_06.py	/^def normalize_to(train, valid):$/;"	f
+notebook2script	notebook2script.py	/^def notebook2script(fname=None, allFiles=None, upTo=None):$/;"	f
+notebook2scriptSingle	notebook2script.py	/^def notebook2scriptSingle(fname):$/;"	f
+np	exp/nb_10.py	/^import numpy as np$/;"	i
+np_to_float	exp/nb_10.py	/^def np_to_float(x): return torch.from_numpy(np.array(x, dtype=np.float32, copy=False)).permute(2,0,1).contiguous()\/255.$/;"	f
+obj	exp/nb_08.py	/^    def obj(self, items, idx, procs):$/;"	m	class:LabeledData
+one_batch	exp/nb_04.py	/^    def one_batch(self, xb, yb):$/;"	m	class:Runner
+one_batch	exp/nb_05b.py	/^    def one_batch(self, xb, yb):$/;"	m	class:Runner
+one_batch	exp/nb_09b.py	/^    def one_batch(self, i, xb, yb):$/;"	m	class:Learner
+operator	exp/nb_01.py	/^import operator$/;"	i
+opt	exp/nb_04.py	/^    def opt(self):       return self.learn.opt$/;"	m	class:Runner
+opt	exp/nb_05b.py	/^    def opt(self):       return self.learn.opt$/;"	m	class:Runner
+opt_func	train_imagenette.py	/^opt_func = adam_opt(mom=mom, mom_sqr=mom_sqr, eps=eps, wd=1e-2)$/;"	v
+optim	exp/nb_03.py	/^from torch import optim$/;"	i
+os	exp/nb_08.py	/^import PIL,os,mimetypes$/;"	i
+output_path	notebook2script.py	/^    output_path = fname.parent\/'exp'\/fname_out$/;"	v
+pad_collate	exp/nb_12.py	/^def pad_collate(samples, pad_idx=1, pad_first=False):$/;"	f
+parallel	exp/nb_12.py	/^def parallel(func, arr, max_workers=4):$/;"	f
+param_getter	exp/nb_09b.py	/^def param_getter(m): return m.parameters()$/;"	f
+parent_labeler	exp/nb_08.py	/^def parent_labeler(fn): return fn.parent.name$/;"	f
+partial	exp/nb_04.py	/^from functools import partial/;"	i
+path	train_imagenette.py	/^path = untar_data(url)$/;"	v
+pct_start	train_imagenette.py	/^pct_start = 0.5$/;"	v
+pcts	train_imagenette.py	/^pcts = create_phases(pct_start)$/;"	v
+pg_dicts	exp/nb_05.py	/^def pg_dicts(pgs): return [{'params':o} for o in pgs]$/;"	f
+pickle	exp/nb_01.py	/^import pickle, gzip, math, torch, matplotlib as mpl$/;"	i
+plot	exp/nb_05b.py	/^    def plot(self, skip_last=0, pgid=-1):$/;"	m	class:Recorder
+plot	exp/nb_09.py	/^    def plot(self, skip_last=0):$/;"	m	class:Recorder
+plot_loss	exp/nb_05.py	/^    def plot_loss(self, skip_last=0): plt.plot(self.losses[:len(self.losses)-skip_last])$/;"	m	class:Recorder
+plot_loss	exp/nb_05b.py	/^    def plot_loss(self, skip_last=0): plt.plot(self.losses[:len(self.losses)-skip_last])$/;"	m	class:Recorder
+plot_loss	exp/nb_09.py	/^    def plot_loss(self): plt.plot(self.losses)$/;"	m	class:Recorder
+plot_lr	exp/nb_05.py	/^    def plot_lr  (self, pgid=-1): plt.plot(self.lrs[pgid])$/;"	m	class:Recorder
+plot_lr	exp/nb_05b.py	/^    def plot_lr  (self, pgid=-1): plt.plot(self.lrs[pgid])$/;"	m	class:Recorder
+plot_lr	exp/nb_09.py	/^    def plot_lr  (self): plt.plot(self.lrs)$/;"	m	class:Recorder
+plt	exp/nb_01.py	/^import matplotlib.pyplot as plt$/;"	i
+prev_pow_2	exp/nb_08.py	/^def prev_pow_2(x): return 2**math.floor(math.log2(x))$/;"	f
+proc1	exp/nb_08.py	/^    def proc1(self, item):  return self.otoi[item]$/;"	m	class:CategoryProcessor
+proc1	exp/nb_12.py	/^    def proc1(self, item):  return [self.otoi[o] for o in item]$/;"	m	class:NumericalizeProcessor
+proc1	exp/nb_12.py	/^    def proc1(self, item): return self.proc_chunk([toks])[0]$/;"	m	class:TokenizeProcessor
+proc_chunk	exp/nb_12.py	/^    def proc_chunk(self, args):$/;"	m	class:TokenizeProcessor
+process	exp/nb_08.py	/^    def process(self, il, proc): return il.new(compose(il.items, proc))$/;"	m	class:LabeledData
+process	exp/nb_08.py	/^    def process(self, items): return items$/;"	m	class:Processor
+process_sz	exp/nb_10.py	/^def process_sz(sz):$/;"	f
+progress_bar	exp/nb_09c.py	/^from fastprogress import master_bar, progress_bar$/;"	i
+randint	exp/nb_10.py	/^from random import randint$/;"	i
+random	exp/nb_10.py	/^import random$/;"	i
+random_splitter	exp/nb_11a.py	/^def random_splitter(fn, p_valid): return random.random() < p_valid$/;"	f
+re	exp/nb_04.py	/^import re$/;"	i
+re	notebook2script.py	/^import json,fire,re$/;"	i
+read_file	exp/nb_12.py	/^def read_file(fn):$/;"	f
+reduce_loss	exp/nb_10b.py	/^def reduce_loss(loss, reduction='mean'):$/;"	f
+remove	exp/nb_06.py	/^    def remove(self): self.hook.remove()$/;"	m	class:Hook
+remove	exp/nb_06.py	/^    def remove(self):$/;"	m	class:Hooks
+remove_cbs	exp/nb_09b.py	/^    def remove_cbs(self, cbs):$/;"	m	class:Learner
+replace_all_caps	exp/nb_12.py	/^def replace_all_caps(x):$/;"	f
+replace_rep	exp/nb_12.py	/^def replace_rep(t):$/;"	f
+replace_wrep	exp/nb_12.py	/^def replace_wrep(t):$/;"	f
+reset	exp/nb_04.py	/^    def reset(self):$/;"	m	class:AvgStats
+reset	exp/nb_12a.py	/^    def reset(self):$/;"	m	class:AWD_LSTM
+reset	exp/nb_12a.py	/^    def reset(self):$/;"	m	class:SequentialRNN
+rm_useless_spaces	exp/nb_12.py	/^def rm_useless_spaces(t):$/;"	f
+run_notebook	run_notebook.py	/^def run_notebook(path):$/;"	f
+sched_1cycle	exp/nb_11a.py	/^def sched_1cycle(lrs, pct_start=0.3, mom_start=0.95, mom_mid=0.85, mom_end=0.95):$/;"	f
+sched_cos	exp/nb_05.py	/^def sched_cos(start, end, pos): return start + (1 + math.cos(math.pi*(1-pos))) * (end-start) \/ 2$/;"	f
+sched_exp	exp/nb_05.py	/^def sched_exp(start, end, pos): return start * (end\/start) ** pos$/;"	f
+sched_lin	exp/nb_05.py	/^def sched_lin(start, end, pos): return start + pos*(end-start)$/;"	f
+sched_lr	train_imagenette.py	/^sched_lr  = combine_scheds(pcts, cos_1cycle_anneal(lr\/10., lr, lr\/1e5))$/;"	v
+sched_mom	train_imagenette.py	/^sched_mom = combine_scheds(pcts, cos_1cycle_anneal(0.95, 0.85, 0.95))$/;"	v
+sched_no	exp/nb_05.py	/^def sched_no(start, end, pos):  return start$/;"	f
+sd	train_imagenette.py	/^sd = SplitData.split_by_func(il, partial(grandparent_splitter, valid_name='val'))$/;"	v
+ser_path	exp/hapkim-custom.py	/^ser_path = Path('\/gdrive\/Shareddrives\/Dion-Account\/2122WS\/8-dl4slp\/coding-project\/ser\/')$/;"	v
+set_param	exp/nb_05.py	/^    def set_param(self):$/;"	m	class:ParamScheduler
+set_param	exp/nb_05b.py	/^    def set_param(self):$/;"	m	class:ParamScheduler
+set_pb	exp/nb_09c.py	/^    def set_pb(self):$/;"	m	class:ProgressCallback
+set_runner	exp/nb_04.py	/^    def set_runner(self, run): self.run=run$/;"	m	class:Callback
+set_runner	exp/nb_05b.py	/^    def set_runner(self, run): self.run=run$/;"	m	class:Callback
+set_trace	exp/nb_01.py	/^from IPython.core.debugger import set_trace$/;"	i
+setify	exp/nb_08.py	/^def setify(o): return o if isinstance(o,set) else set(listify(o))$/;"	f
+sgd_opt	exp/nb_09.py	/^sgd_opt = partial(Optimizer, steppers=[weight_decay, sgd_step])$/;"	v
+sgd_step	exp/nb_09.py	/^def sgd_step(p, lr, **kwargs):$/;"	f
+show_batch	exp/nb_10.py	/^def show_batch(x, c=4, r=None, figsize=None):$/;"	f
+show_image	exp/nb_08.py	/^def show_image(im, figsize=(3,3)):$/;"	f
+show_image	exp/nb_10.py	/^def show_image(im, ax=None, figsize=(3,3)):$/;"	f
+size	train_imagenette.py	/^size = 128$/;"	v
+spacy	exp/nb_12.py	/^import spacy,html$/;"	i
+spec_add_spaces	exp/nb_12.py	/^def spec_add_spaces(t):$/;"	f
+split_by_func	exp/nb_08.py	/^    def split_by_func(cls, il, f):$/;"	m	class:SplitData
+split_by_func	exp/nb_08.py	/^def split_by_func(items, f):$/;"	f
+step	exp/nb_09.py	/^    def step(self):$/;"	m	class:Optimizer
+step	exp/nb_09.py	/^    def step(self):$/;"	m	class:StatefulOptimizer
+sub_br	exp/nb_12.py	/^def sub_br(t):$/;"	f
+subm	exp/hapkim-custom.py	/^subm = defaultdict(str)$/;"	v
+t1	exp/hapkim-custom.py	/^t1= features[0].unsqueeze(1); t.shape$/;"	v
+tensor	exp/nb_01.py	/^from torch import tensor$/;"	i
+test	exp/nb_01.py	/^def test(a,b,cmp,cname=None):$/;"	f
+test_eq	exp/nb_01.py	/^def test_eq(a,b): test(a,b,operator.eq,'==')$/;"	f
+test_near	exp/nb_01.py	/^def test_near(a,b): test(a,b,near)/;"	f
+test_near_zero	exp/nb_02.py	/^def test_near_zero(a,tol=1e-3): assert a.abs()<tol, f"Near zero: {a}"$/;"	f
+test_overflow	exp/nb_10c.py	/^def test_overflow(x):$/;"	f
+tfms	train_imagenette.py	/^tfms = [make_rgb, RandomResizedCrop(128,scale=(0.35,1)), np_to_float, PilRandomFlip()]$/;"	v
+time	exp/nb_09c.py	/^import time$/;"	i
+to_byte_tensor	exp/nb_08.py	/^def to_byte_tensor(item):$/;"	f
+to_detach	exp/nb_12a.py	/^def to_detach(h):$/;"	f
+to_float_tensor	exp/nb_08.py	/^def to_float_tensor(item): return item.float().div_(255.)$/;"	f
+to_master_grads	exp/nb_10c.py	/^def to_master_grads(model_pgs, master_pgs, flat_master:bool=False)->None:$/;"	f
+to_model_params	exp/nb_10c.py	/^def to_model_params(model_pgs, master_pgs, flat_master:bool=False)->None:$/;"	f
+torch	exp/nb_01.py	/^import pickle, gzip, math, torch, matplotlib as mpl$/;"	i
+torch	exp/nb_03.py	/^import torch.nn.functional as F$/;"	i
+train_ds	exp/nb_04.py	/^    def train_ds(self): return self.train_dl.dataset$/;"	m	class:DataBunch
+train_ds	exp/nb_08.py	/^    def train_ds(self): return self.train_dl.dataset$/;"	m	class:DataBunch
+uniform	exp/nb_10.py	/^def uniform(a,b): return a + (b-a) * random.random()$/;"	f
+uniqueify	exp/nb_08.py	/^def uniqueify(x, sort=False):$/;"	f
+unsqueeze	exp/nb_10b.py	/^def unsqueeze(input, dims):$/;"	f
+update	exp/nb_09.py	/^    def update(self, p, state, **kwargs): raise NotImplementedError$/;"	m	class:Stat
+update	exp/nb_09.py	/^    def update(self, p, state, **kwargs):$/;"	m	class:StepCount
+update	exp/nb_09.py	/^    def update(self, p, state, mom, **kwargs):$/;"	m	class:AverageGrad
+update	exp/nb_09.py	/^    def update(self, p, state, sqr_mom, **kwargs):$/;"	m	class:AverageSqrGrad
+update_stats	exp/nb_07.py	/^    def update_stats(self, x):$/;"	m	class:RunningBatchNorm
+url	train_imagenette.py	/^url = URLs.IMAGENETTE_160 if size<140 else URLs.IMAGENETTE_320 if size<240 else URLs.IMAGENETTE$/;"	v
+valid_ds	exp/nb_04.py	/^    def valid_ds(self): return self.valid_dl.dataset$/;"	m	class:DataBunch
+valid_ds	exp/nb_08.py	/^    def valid_ds(self): return self.valid_dl.dataset$/;"	m	class:DataBunch
+view_tfm	exp/nb_06.py	/^def view_tfm(*size):$/;"	f
+warnings	exp/nb_12a.py	/^import warnings$/;"	i
+warp	exp/nb_10.py	/^def warp(img, size, src_coords, resample=PIL.Image.BILINEAR):$/;"	f
+weight_decay	exp/nb_09.py	/^def weight_decay(p, lr, wd, **kwargs):$/;"	f
+x_obj	exp/nb_08.py	/^    def x_obj(self, idx): return self.obj(self.x, idx, self.proc_x)$/;"	m	class:LabeledData
+xresnet101	exp/nb_11.py	/^def xresnet101(**kwargs): return XResNet.create(4, [3, 4, 23, 3], **kwargs)$/;"	f
+xresnet152	exp/nb_11.py	/^def xresnet152(**kwargs): return XResNet.create(4, [3, 8, 36, 3], **kwargs)$/;"	f
+xresnet18	exp/nb_11.py	/^def xresnet18 (**kwargs): return XResNet.create(1, [2, 2, 2, 2], **kwargs)$/;"	f
+xresnet34	exp/nb_11.py	/^def xresnet34 (**kwargs): return XResNet.create(1, [3, 4, 6, 3], **kwargs)$/;"	f
+xresnet50	exp/nb_11.py	/^def xresnet50 (**kwargs): return XResNet.create(4, [3, 4, 6, 3], **kwargs)$/;"	f
+xtra_cb	train_imagenette.py	/^xtra_cb = []$/;"	v
+y_obj	exp/nb_08.py	/^    def y_obj(self, idx): return self.obj(self.y, idx, self.proc_y)$/;"	m	class:LabeledData
+zero_grad	exp/nb_09.py	/^    def zero_grad(self):$/;"	m	class:Optimizer
