@@ -7,6 +7,7 @@
   - Callbacks
     - FramesizeFilter: raise batch exception error when n_frames are less than 100 after concatenating twice
     - SaveModelParam: save model checkpoint after one epoch
+      - latest version: [commit](https://github.com/SpellOnYou/1000-days-of-code/commit/8d82ef3b96c88c0dac99bb50a5a8dcd83d77b892#diff-881f8a1768f15da891fe97569e1c0ddd037a2eb1c5ed66915e56d1d741688a19), `/gdrive/Shareddrives/Dion-Account/2122WS/8-dl4slp/coding-project/ser/checkpoints/ser-cnn-ffc-loss-bce_{n_epoch}.pt`
     - Recorder.tot_time: track time per epoch
   - Loss function
     - Changing loss function from cross_entropy to BCE_loss (i.e., single-label multi-class -> multi-label single class
