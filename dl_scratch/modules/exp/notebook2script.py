@@ -69,7 +69,7 @@ def notebook2scriptSingle(fname):
     # remove trailing spaces
     module = re.sub(r' +$', '', module, flags=re.MULTILINE)
     if not (fname.parent/'exp').exists(): (fname.parent/'exp').mkdir()
-    output_path = fname.parent/'exp'/fname_out
+    output_path = fname.parent/fname_out
     with io.open(output_path, "w", encoding="utf-8") as f:
         f.write(module[:-2])
     print(f"Converted {fname} to {output_path}")
