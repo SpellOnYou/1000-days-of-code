@@ -134,6 +134,7 @@ class Runner():
         return False
 
 class AvgStats():
+    # here you can give any kinds of metrics e.g., accuracy, F1 score, but be careful that this assumes you are doing single-label multi-class classification.
     def __init__(self, metrics, in_train): self.metrics,self.in_train = listify(metrics),in_train
 
     def reset(self):
