@@ -56,7 +56,6 @@ class SequentialEx(nn.Module):
     def insert(self,i,l):    return self.layers.insert(i,l)
 
 class MultiHeadAttention(nn.Module):
-
     "MutiHeadAttention."
 
     def __init__(self, n_heads:int, d_model:int, d_head:int=None, resid_p:float=0., attn_p:float=0., bias:bool=True,
@@ -71,7 +70,6 @@ class MultiHeadAttention(nn.Module):
         self.out = nn.Linear(n_heads * d_head, d_model, bias=bias)
         self.drop_att,self.drop_res = nn.Dropout(attn_p),nn.Dropout(resid_p)
         self.ln = nn.LayerNorm(d_model)
-        
         self.scale = scale
 
     def forward(self, q:Tensor, k:Tensor, v:Tensor, mask:Tensor=None):
@@ -122,3 +120,60 @@ class MultiHeadAttention(nn.Module):
         attn_prob = self.drop_att(F.softmax(attn_score, dim=2))
         attn_vec = torch.einsum('bijn,bjnd->bind', (attn_prob, wv))
         return attn_vec.contiguous().view(bs, seq_len, -1)
+
+
+def get_padding_mask(inp, pad_idx:int=1):
+    return None
+    return (inp == pad_idx)[:,None,:,None]
+def get_output_mask(inp, pad_idx:int=1):
+    return torch.triu(inp.new_ones(inp.size(1),inp.size(1)), diagonal=1)[None,None].byte()
+    return ((inp == pad_idx)[:,None,:,None].long() + torch.triu(inp.new_ones(inp.size(1),inp.size(1)), diagonal=1)[None,None] != 0)
+# Example of mask for the future tokens:
+torch.triu(torch.ones(10,10), diagonal=1).byte()
+
+
+class EncoderBlock(nn.Module):
+    "Encoder block of a Transformer model."
+    #Can't use Sequential directly cause more than one input...
+    def __init__(self, n_heads:int, d_model:int, d_head:int, d_inner:int, resid_p:float=0., attn_p:float=0., ff_p:float=0.,
+                 bias:bool=True, scale:bool=True, double_drop:bool=True):
+        super().__init__()
+        self.mha = MultiHeadAttention(n_heads, d_model, d_head, resid_p=resid_p, attn_p=attn_p, bias=bias, scale=scale)
+        self.ff  = feed_forward(d_model, d_inner, ff_p=ff_p, double_drop=double_drop)
+    def forward(self, x:Tensor, mask:Tensor=None): return self.ff(self.mha(x, x, x, mask=mask))
+
+class DecoderBlock(nn.Module):
+    "Decoder block of a Transformer model."
+    #Can't use Sequential directly cause more than one input...
+    def __init__(self, n_heads:int, d_model:int, d_head:int, d_inner:int, resid_p:float=0., attn_p:float=0., ff_p:float=0.,
+                 bias:bool=True, scale:bool=True, double_drop:bool=True):
+        super().__init__()
+        self.mha1 = MultiHeadAttention(n_heads, d_model, d_head, resid_p=resid_p, attn_p=attn_p, bias=bias, scale=scale)
+        self.mha2 = MultiHeadAttention(n_heads, d_model, d_head, resid_p=resid_p, attn_p=attn_p, bias=bias, scale=scale)
+        self.ff   = feed_forward(d_model, d_inner, ff_p=ff_p, double_drop=double_drop)
+    def forward(self, x:Tensor, enc:Tensor, mask_in:Tensor=None, mask_out:Tensor=None):
+        y = self.mha1(x, x, x, mask_out)
+        return self.ff(self.mha2(y, enc, enc, mask=mask_in))
+
+class Transformer(nn.Module):
+    "Transformer model"
+    def __init__(self, inp_vsz:int, out_vsz:int, n_layers:int=6, n_heads:int=8, d_model:int=256, d_head:int=32,
+                 d_inner:int=1024, inp_p:float=0.1, resid_p:float=0.1, attn_p:float=0.1, ff_p:float=0.1, bias:bool=True,
+                 scale:bool=True, double_drop:bool=True, pad_idx:int=1):
+        super().__init__()
+        self.enc_emb = TransformerEmbedding(inp_vsz, d_model, inp_p)
+        self.dec_emb = TransformerEmbedding(out_vsz, d_model, 0.)
+        self.encoder = nn.ModuleList([EncoderBlock(n_heads, d_model, d_head, d_inner, resid_p, attn_p,
+                                                   ff_p, bias, scale, double_drop) for _ in range(n_layers)])
+        self.decoder = nn.ModuleList([DecoderBlock(n_heads, d_model, d_head, d_inner, resid_p, attn_p,
+                                                   ff_p, bias, scale, double_drop) for _ in range(n_layers)])
+        self.out = nn.Linear(d_model, out_vsz)
+        self.out.weight = self.dec_emb.embed.weight
+        self.pad_idx = pad_idx
+    def forward(self, inp, out):
+        mask_in  = get_padding_mask(inp, self.pad_idx)
+        mask_out = get_output_mask (out, self.pad_idx)
+        enc,out = self.enc_emb(inp),self.dec_emb(out)
+        for enc_block in self.encoder: enc = enc_block(enc, mask_in)
+        for dec_block in self.decoder: out = dec_block(out, enc, mask_in, mask_out)
+        return self.out(out)
