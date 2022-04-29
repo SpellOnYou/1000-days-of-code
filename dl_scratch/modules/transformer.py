@@ -12,6 +12,7 @@ for i in range(0,3):
     ax[0].legend()
     ax[0].set_xlabel("relative posotion")
     ax[1].plot(res[:,int(d_model/2+i)], label=f"cos, cur pos:{i}"); ax[1].legend()
+    
 class TransformerEmbedding(nn.Module):
     def __init__(self, vocab_size:int, emb_size:int, drop_p:float=0.):
         self.emb_size = emb_size
